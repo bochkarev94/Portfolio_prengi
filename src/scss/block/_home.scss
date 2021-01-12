@@ -1,9 +1,11 @@
 .home {
+    position: relative;
     padding-top: 30px;
     background: url('../img/bg/bg_home.jpg') center center / cover no-repeat;
     height: 100vh;
 
     .menu {
+        position: relative;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -33,7 +35,31 @@
                 }
             } 
         }
+        &__overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100%;
+            background-color: rgba($color: #000000, $alpha: 0.8);
+            z-index: 200;
+            transition: 1s all;
+            &-active {
+                opacity: 0;
+            }
+        }
+        &__close {
+            font-size: 40px;
+            color: #fff;
+            position: absolute;
+            top: 0;
+            right: 5%;
+            cursor: pointer;
+        }
+        
     }
+
 
     &__title {
         margin-top: 133px;
@@ -57,4 +83,6 @@
             }
         }
     }
+
+    @import 'home-slider';
 }

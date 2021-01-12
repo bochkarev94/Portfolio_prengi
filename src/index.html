@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prengi</title>
-    <meta name="viewport" content="user-scalable=no" />
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://metatags.io/" />
@@ -65,10 +64,15 @@
     </header>
 
     <section class="home">
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
       <div class="container">
         <div class="menu">
           <img src="icons//logo.png" alt="logo" class="logo" />
-          <nav>
+          <nav class="menu__destope">
             <ul>
               <li><a href="#">главная</a></li>
               <li><a href="#">Модули</a></li>
@@ -77,6 +81,18 @@
               <li><a href="#">Наши обязательства</a></li>
             </ul>
           </nav>
+          <div class="menu__overlay menu__overlay-active">
+            <div class="menu__close">&times;</div>
+            <nav>
+              <ul>
+                <li><a class="menu__link" href="#">главная</a></li>
+                <li><a class="menu__link" href="#">Модули</a></li>
+                <li><a class="menu__link" href="#">Отрасли</a></li>
+                <li><a class="menu__link" href="#">О нас</a></li>
+                <li><a class="menu__link" href="#">Наши обязательства</a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
         <div class="home__title">
           <h1>
@@ -89,9 +105,43 @@
           </h2>
           <button class="btn">Получить доступ</button>
         </div>
-        <div class="home__slider"></div>
+
+        <div class="slider">
+          <div class="slider__btn">
+            <button class="prev">
+              <img src="img/slider_home/prev.svg" alt="prev" />
+            </button>
+            <button class="circle"></button>
+            <button class="circle"></button>
+            <button class="circle"></button>
+            <button class="circle"></button>
+            <button class="circle"></button>
+            <button class="next">
+              <img src="img/slider_home/next.svg" alt="next" />
+            </button>
+          </div>
+          <div class="slider__wrapper">
+            <div class="slider__item"></div>
+            <div class="slider__item">
+              <img src="img/slider_home/slider_home-1.png" alt="slider-1" />
+            </div>
+            <div class="slider__item">
+              <img src="img/slider_home/slider_home-2.png" alt="slder-2" />
+            </div>
+            <div class="slider__item">
+              <img src="img/slider_home/slider_home-1.png" alt="slider-3" />
+            </div>
+            <div class="slider__item">
+              <img src="img/slider_home/slider_home-1.png" alt="slider-4" />
+            </div>
+            <div class="slider__item">
+              <img src="img/slider_home/slider_home-2.png" alt="slder-5" />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+
     <script src="js/script.min.js"></script>
   </body>
 </html>

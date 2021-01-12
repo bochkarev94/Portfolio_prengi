@@ -1,6 +1,7 @@
 
 @import "libs/fonts";
 @import "libs/bootstrap-reboot.min";
+@import 'libs/animate';
 
 * {
     font-family: "Roboto", sans-serif;
@@ -10,7 +11,7 @@
 
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -18,6 +19,7 @@
 @import "base/mixins";
 @import "base/variables";
 
+@import'block/hamburger';
 @import 'block/header';
 @import 'block/home';
 
@@ -39,6 +41,13 @@
         background-color: #00a2f0;
         transition: 0.5s all;
     }
+}
+
+.no-scroll {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
 }
 
 @import'base/mobile';
