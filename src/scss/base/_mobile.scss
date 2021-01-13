@@ -106,6 +106,12 @@
             font-size: 12px;
         }
     }
+
+    .advant {
+        &__text {
+            font-size: 16px;
+        }
+    }
 }
 
 
@@ -219,6 +225,12 @@
         }
         &__subtitle {
             display: block;
+        }
+    }
+
+    .advant {
+        &__wrapper {
+            grid-template-columns: 1fr;
         }
     }
 }

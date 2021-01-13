@@ -1,0 +1,31 @@
+.advant {
+    padding: 80px 0;
+    &__wrapper {
+        margin-top: 44px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    &__item {
+        position: relative;
+        img{
+            width: 100%;
+        }
+    }
+    &__text {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        text-align: center;
+        color: #ffffff;
+        transform: translate(50%, -50%);
+        width: 100%;
+        height: 155px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba($color: #000000, $alpha: 0.44);
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}
