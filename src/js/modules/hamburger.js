@@ -2,7 +2,7 @@ const hamburger = () => {
     const hamburger = document.querySelector('.hamburger'),
         overlay = document.querySelector('.menu__overlay'),
         links = document.querySelectorAll('.menu__link'),
-        sliderBtn = document.querySelector('.slider__btn');
+        sliderBtn = document.querySelector('.slider__btn'),
         close = document.querySelector('.menu__close');
 
         function hideMenu () {
