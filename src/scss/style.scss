@@ -23,6 +23,7 @@
 @import 'block/header';
 @import 'block/home';
 @import 'block/moduls';
+@import 'block/industries';
 
 .btn {
     width: 241px;
@@ -42,6 +43,13 @@
         background-color: #00a2f0;
         transition: 0.5s all;
     }
+}
+
+.title {
+    font-size: clamp(18px, 5vw, 30px);
+    font-weight: 900;
+    line-height: 36px;
+    text-align: center;
 }
 
 .no-scroll {

@@ -45,6 +45,16 @@
             }
         }
     }
+
+    .industries {
+        &__slider {
+            max-width: 800px;
+            img {
+                width: 100%;
+            }
+
+        }
+    }
 }
 
 
@@ -89,8 +99,13 @@
             width: 220px;
         }
     }
-    
 
+
+    .industries {
+        &__tabs {
+            font-size: 12px;
+        }
+    }
 }
 
 
@@ -196,6 +211,16 @@
             }
         }
     }
+
+
+    .industries {
+        &__tabs {
+            display: none;
+        }
+        &__subtitle {
+            display: block;
+        }
+    }
 }
 
 
@@ -242,6 +267,30 @@
         }
 
     }
-    
 
+    
+}
+
+@media (max-width: 400px) {
+    
+    .industries {
+        .title {
+            br {
+                display: none;
+            }
+        }
+
+        &__next,
+        &__prev {
+            display: none;
+        }
+
+        &__wrapper {
+            flex-direction: column;
+        }
+
+        &__slider {
+            margin-top: 10px;
+        }
+    }
 }

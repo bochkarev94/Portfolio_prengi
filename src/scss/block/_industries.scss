@@ -1,0 +1,72 @@
+.industries {
+    padding-top: 79px;
+    padding-bottom: 61px;
+    background: url('../img/bg/bg_industries.jpg') center center / cover no-repeat;
+    margin: 0 auto;
+    .title {
+        color: #ffffff;
+        margin-bottom: 25px;
+    }
+    &__tabs {
+        list-style: none;
+        max-width: 843px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        border: 1px solid #ffffff;
+        margin: 0 auto;
+        padding: 5px 33px;
+        li {
+            border-right: 1px solid rgba($color: #ffffff, $alpha: 0.35);
+            padding-right: 30px;
+            height: 47px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            &:last-child {
+                padding-right: 0;
+                border-right: none;
+            }
+            &:hover {
+                color: $main-color;
+                transition: 0.6s all;
+            }
+        }
+    }
+    &__tab {
+        &-active {
+            color: $main-color;
+        }
+    }
+    &__wrapper {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__prev,
+    &__next {
+        background:rgba($color: #ffffff, $alpha: 0);
+        border: none;
+        z-index: 201;
+        &:active,
+        &:focus {
+            border: none;
+            outline: none;
+        }
+    }
+    &__slider {
+        animation-duration: 1.5s;
+    }
+    &__subtitle {
+        display: none;
+        color: $main-color;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+}
+
