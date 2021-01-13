@@ -26,6 +26,7 @@
 @import 'block/industries';
 @import 'block/advant';
 @import 'block/commit';
+@import 'block/contacts';
 
 .btn {
     width: 241px;
@@ -37,6 +38,7 @@
     padding-bottom: 21px;
     background-color: $main-color;
     border: none;
+    z-index: 201;
     &:active,
     &:focus {
         outline: none;

@@ -153,6 +153,7 @@
                 }
             }
         &__overlay {
+            display: none;
             position: fixed;
             top: 0;
             left: 0;
@@ -162,9 +163,6 @@
             z-index: 200;
             transition: 1s all;
 
-            &-active {
-                opacity: 0;
-            }
         }
 
         &__close {
