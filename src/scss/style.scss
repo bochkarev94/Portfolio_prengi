@@ -25,6 +25,7 @@
 @import 'block/moduls';
 @import 'block/industries';
 @import 'block/advant';
+@import 'block/commit';
 
 .btn {
     width: 241px;
@@ -47,7 +48,7 @@
 }
 
 .title {
-    font-size: clamp(18px, 5vw, 30px);
+    font-size: clamp(18px, 4vw, 30px);
     font-weight: 900;
     line-height: 36px;
     text-align: center;

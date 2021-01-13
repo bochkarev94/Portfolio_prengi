@@ -112,6 +112,18 @@
             font-size: 16px;
         }
     }
+
+    .commit {
+        &__title {
+            font-size: 20px;
+        }
+        &__subtitle {
+            font-size: 16px;
+            br {
+                display: none;
+            }
+        }
+    }
 }
 
 
@@ -233,6 +245,12 @@
             grid-template-columns: 1fr;
         }
     }
+    .commit {
+        &__wrapper {
+            grid-template-columns: 1fr;
+        }
+
+    }
 }
 
 
@@ -280,6 +298,21 @@
 
     }
 
+    .commit {
+        &__wrapper {
+        grid-auto-rows: 420px;
+
+        }
+        &__itemOne {
+            padding-right: 51px;
+        }
+        &__itemTwo {
+            padding-left: 50px;
+        }
+        .title {
+        top: 0;
+    }
+    }
     
 }
 
