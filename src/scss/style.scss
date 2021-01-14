@@ -28,6 +28,7 @@
 @import 'block/commit';
 @import 'block/contacts';
 @import 'block/footer';
+@import 'block/modal';
 
 .btn {
     width: 241px;
@@ -60,8 +61,7 @@
 .no-scroll {
     height: 100%;
     overflow: hidden;
-    width: 100%;
-    position: fixed;
+    position: relative;
 }
 
 @import'base/mobile';

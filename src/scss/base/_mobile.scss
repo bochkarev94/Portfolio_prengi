@@ -55,6 +55,8 @@
 
         }
     }
+
+    
     
 }
 
@@ -342,6 +344,37 @@
         .title {
         top: 0;
     }
+    }
+
+    .modal {
+        height: 400px;
+        width: 270px;
+        &__btn {
+            width: 161px;
+            font-size: 12px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+        &__form {
+            margin-top: 15px;
+
+            input {
+                padding: 10px 0 10px 20px;
+                margin-bottom: 30px;
+            }
+        }
+
+        &__title {
+            font-size: 16px;
+        }
+
+        &__subtitle {
+            font-size: 12px;
+        }
+
+        &__close {
+            font-size: 32px;
+        }
     }
     
 }
