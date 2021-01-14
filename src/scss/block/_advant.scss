@@ -4,11 +4,15 @@
         margin-top: 44px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+
     }
     &__item {
         position: relative;
+        max-height: 299px;
         img{
+            max-height: 100%;
             width: 100%;
+            object-fit: cover;
         }
     }
     &__text {

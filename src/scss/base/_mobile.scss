@@ -55,6 +55,7 @@
 
         }
     }
+    
 }
 
 
@@ -124,6 +125,14 @@
             }
         }
     }
+    .advant {
+        padding: 80px 0;
+
+        &__item {
+            max-height: 224px;
+        }
+    }
+    
 }
 
 
@@ -248,6 +257,29 @@
             grid-template-columns: 1fr;
         }
 
+    }
+    .advant {
+        padding: 80px 0;
+
+        &__item {
+            max-height: 299px;
+        }
+    }
+    .footer {
+        &__item {
+            &:nth-child(1) {
+                margin: 0 auto;
+            }
+            &:nth-child(2) {
+                display: none;
+            }
+            &:nth-child(3) {
+                display: none;
+            }
+            &:nth-child(4) {
+                display: none;
+            }
+        }
     }
 }
 
