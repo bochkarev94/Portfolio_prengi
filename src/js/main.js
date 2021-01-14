@@ -3,6 +3,7 @@ import hamburger from './modules/hamburger';
 import modal from './modules/modal';
 import forms from './modules/forms';
 import mask from './modules/mask';
+import scrollSmoth from './modules/scrollSmoth';
 
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -36,4 +37,5 @@ window.addEventListener('DOMContentLoaded', () => {
     modal('.btn__modal', '#poppup', '.overlay', '.modal__close');
     forms('#poppup', '#end', '.overlay');
     mask('input[name="phone"]');
+    scrollSmoth('.pageup');
 })

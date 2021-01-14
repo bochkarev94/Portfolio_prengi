@@ -23,10 +23,16 @@ const hamburger = () => {
         close.addEventListener('click', () => {
             showMenu();
         });
-        links.forEach(link => {
+
+        
+            links.forEach(link => {
             link.addEventListener('click', () => {
-                showMenu();
+                if (window.innerWidth < 769 ) {
+                    showMenu();
+                }
+                
             });
         });
+        
 }
 export default hamburger

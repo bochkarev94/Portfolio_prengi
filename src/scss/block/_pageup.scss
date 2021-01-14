@@ -1,0 +1,13 @@
+.pageup {
+    opacity: 0;
+    width: 26px;
+    height: 26px;
+    position: fixed;
+    bottom: 100px;
+    right: 5%;
+    z-index: 202;
+    background-color: #2081f0;
+    cursor: pointer;
+    border: 1px solid #2081f0;
+    transition: 1s all;
+}

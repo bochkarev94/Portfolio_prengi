@@ -63,7 +63,7 @@
       </div>
     </header>
 
-    <section class="home">
+    <section class="home" id="home">
       <div class="hamburger">
         <span></span>
         <span></span>
@@ -77,10 +77,12 @@
             <nav>
               <ul>
                 <li><a class="menu__link" href="#">главная</a></li>
-                <li><a class="menu__link" href="#">Модули</a></li>
-                <li><a class="menu__link" href="#">Отрасли</a></li>
-                <li><a class="menu__link" href="#">О нас</a></li>
-                <li><a class="menu__link" href="#">Наши обязательства</a></li>
+                <li><a class="menu__link" href="#moduls">Модули</a></li>
+                <li><a class="menu__link" href="#industries">Отрасли</a></li>
+                <li><a class="menu__link" href="#advant">О нас</a></li>
+                <li>
+                  <a class="menu__link" href="#commit">Наши обязательства</a>
+                </li>
               </ul>
             </nav>
           </div>
@@ -133,7 +135,7 @@
       </div>
     </section>
 
-    <section class="moduls">
+    <section class="moduls" id="moduls">
       <div class="container">
         <div class="moduls__wrapper">
           <div class="moduls__item">
@@ -225,7 +227,7 @@
       </div>
     </section>
 
-    <section class="industries">
+    <section class="industries" id="industries">
       <div class="container">
         <h2 class="title">
           Prengi предоставляет экспертные решения<br />
@@ -294,7 +296,7 @@
       </div>
     </section>
 
-    <section class="advant">
+    <section class="advant" id="advant">
       <div class="container">
         <h2 class="title">
           Преимущества Prengi для<br />
@@ -347,7 +349,7 @@
       </div>
     </section>
 
-    <section class="commit">
+    <section class="commit" id="commit">
       <h2 class="title">
         Варианты развертывания<br />
         Ваших данных
@@ -469,6 +471,22 @@
         <div class="modal__subtitle"></div>
       </div>
     </div>
+
+    <a href="#home" class="pageup">
+      <svg
+        class="up"
+        viewBox="0 0 26 26"
+        fill="#fff"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M26 0H0V26H26V0ZM4.6593 17.7519L13.1233 10.33L21.5873 17.7519L22.9059 16.2481L13.7826 8.24813L13.1233 7.67L12.464 8.24813L3.3407 16.2481L4.6593 17.7519Z"
+          fill="black"
+        />
+      </svg>
+    </a>
     <script src="js/script.min.js"></script>
   </body>
 </html>
