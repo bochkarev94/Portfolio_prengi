@@ -28,8 +28,8 @@ window.addEventListener('DOMContentLoaded', () => {
             '.industries__next',
             '.industries__tab',
             'industries__tab-active',
-            'slideInLeft',
-            'slideInRight',
+            'fadeInLeft',
+            'fadeInRight',
             ''
         )
     };

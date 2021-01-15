@@ -147,7 +147,7 @@ exports.default = series(clean, parallel(htmlInclude, fonts,styles, scripts, scr
 const tinypngEnd = () => {
     return src('./src/img/**/*')
         .pipe(tinypng({
-            key: 'cccmWCGC8PCH3bchHGMHxQghCBg701YJ'
+            key: ''
         }))
         .pipe(dest('./dist/img'))
 }
@@ -214,4 +214,4 @@ const scriptsBuild = () => {
         .pipe(dest('./dist/js'))
     }
 
-    exports.build = series(clean, parallel(htmlInclude, fonts, stylesBuild, scriptsBuild, scriptAdd, imgApp, iconsApp, assets), tinypngEnd)
+    exports.build = series(clean, parallel(htmlInclude, fonts, stylesBuild, scriptsBuild, scriptAdd, imgApp, iconsApp, assets, tinypngEnd))
