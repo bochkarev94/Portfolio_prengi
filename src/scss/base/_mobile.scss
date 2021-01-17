@@ -347,7 +347,6 @@
     }
 
     .modal {
-        height: 400px;
         width: 270px;
         &__btn {
             width: 161px;
@@ -375,6 +374,9 @@
         &__close {
             font-size: 32px;
         }
+    }
+    #poppup {
+        height: 400px;
     }
     
 }

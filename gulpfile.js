@@ -147,7 +147,7 @@ exports.default = series(clean, parallel(htmlInclude, fonts,styles, scripts, scr
 const tinypngEnd = () => {
     return src('./src/img/**/*')
         .pipe(tinypng({
-            key: ''
+            key: 'cccmWCGC8PCH3bchHGMHxQghCBg701YJ'
         }))
         .pipe(dest('./dist/img'))
 }
